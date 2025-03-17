@@ -1,0 +1,44 @@
+{
+    "screen": {
+        "height": 320,
+        "width": 320,
+        "target_fps": 100
+    },
+    "mask": {
+        "enabled": false,
+        "side": "left",
+        "width": 200,
+        "height": 200
+    },
+    "aim": {
+        "movement_amp": 1.1,
+        "aim_power": 0.72,
+        "aim_distance": 200
+    },
+    "detection": {
+        "confidence": 0.5,
+        "max_det": 3
+    },
+    "aim_mode": {
+        "headshot_mode": true,
+        "headshot_offset": 0.36,
+        "body_offset": 0.2
+    },
+    "model": {
+        "base_path": "models/CS2/prune_25/yolo11n320CS2_prune_25"
+    },
+    "onnx_device": 3,
+    "control": {
+        "default_class": 0,
+        "alternate_class": 2,
+        "quit_key": "F11",
+        "multi_key": "F1",
+        "switch_key": "F2",
+        "aim_button": "SIDE_1"
+    },
+    "display": {
+        "cps_display": true,
+        "visuals": false,
+        "center_of_screen": true
+    }
+}
