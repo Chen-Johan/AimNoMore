@@ -2,6 +2,8 @@
 
 ## 目前项目说明还在进行整理，敬请期待。
 
+Just made this repo public. A huge update coming.
+
 安装torch 2.6.0 stable 版本
 
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
